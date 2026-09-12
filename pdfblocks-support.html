@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サポート｜PDFつみき</title>
+<style>
+  :root {
+    --ink: #1d2530;
+    --ink-soft: #5b6572;
+    --line: #e2e6eb;
+    --bg: #ffffff;
+    --panel: #f7f8fa;
+    --accent: #2f6fb0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e8ecf1;
+      --ink-soft: #a3adba;
+      --line: #333a44;
+      --bg: #171a1f;
+      --panel: #1f242b;
+      --accent: #79b1e6;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 32px 20px 64px;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 1.7rem; margin: 0 0 4px; letter-spacing: .02em; }
+  .lede { color: var(--ink-soft); margin: 0 0 28px; font-size: .95rem; }
+  h2 {
+    font-size: 1.15rem;
+    margin: 40px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  h3 { font-size: 1rem; margin: 24px 0 6px; }
+  p, li { font-size: .97rem; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  code { background: var(--panel); padding: 1px 5px; border-radius: 4px; font-size: .9em; }
+  .note {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin: 16px 0;
+    font-size: .93rem;
+  }
+  .blocks { border-collapse: collapse; width: 100%; margin: 12px 0; }
+  .blocks th, .blocks td {
+    border-bottom: 1px solid var(--line);
+    padding: 9px 10px;
+    text-align: left;
+    font-size: .93rem;
+    vertical-align: top;
+  }
+  .blocks th { white-space: nowrap; width: 12em; font-weight: 600; }
+  .faq dt { font-weight: 600; margin-top: 18px; }
+  .faq dd { margin: 4px 0 0; color: var(--ink-soft); }
+  footer {
+    margin-top: 56px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    color: var(--ink-soft);
+    font-size: .87rem;
+  }
+  .lang { font-size: .87rem; color: var(--ink-soft); margin-bottom: 24px; }
+  @media (max-width: 520px) {
+    .blocks th { width: auto; display: block; border-bottom: none; padding-bottom: 0; }
+    .blocks td { display: block; padding-top: 2px; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>サポート</h1>
+<p class="lede">PDFつみき（英語版の名称: PDFBlocks）</p>
+<p class="lang"><a href="#english">English</a></p>
+
+<h2>お問い合わせ</h2>
+<p>
+  ご質問・不具合のご報告は、こちらのメールアドレスまでお願いします。<br>
+  <a href="mailto:shikuhakkunobuzaemon@gmail.com">shikuhakkunobuzaemon@gmail.com</a>
+</p>
+<p>個人で開発・運営しているため、お返事にお時間をいただくことがあります。あらかじめご了承ください。</p>
+
+<h2>ご利用にあたって</h2>
+<ul>
+  <li>iOS 17 以降の iPhone・iPad、および macOS 14 以降の Mac でご利用いただけます。</li>
+  <li>買い切りの有料アプリです。アプリ内課金や広告はありません。</li>
+  <li>インターネット接続は不要です。PDFの処理はすべてお使いの端末の中だけで行われます。</li>
+</ul>
+
+<h2>使い方</h2>
+<ol>
+  <li><strong>PDFを机に置く</strong> — 画面の上半分が「机」です。ファイルを選ぶか、ドラッグ＆ドロップで置きます。複数のPDFを置くこともできます。</li>
+  <li><strong>ブロックを積む</strong> — やりたい操作のブロックを、下のブロック一覧から選んで積み上げます。
+    <ul>
+      <li>Mac・iPad は、ダブルクリックで一番下に積むか、ドラッグして好きな位置に差し込めます。</li>
+      <li>iPhone は、タップで一番下に積みます。順番を変えたいときは、積んだブロックを長押し→ドラッグします。</li>
+    </ul>
+  </li>
+  <li><strong>実行する</strong> — 手順ごとに、本をめくる形のプレビューが出ます。消すページ、切り取る位置、透かしを置く場所などは、この画面で本の上を直接さわって決めます。</li>
+  <li><strong>保存する</strong> — 最後の画面でファイル名を決め、保存先を選びます。</li>
+</ol>
+
+<div class="note">
+  操作に慣れたら、実行ボタンからプレビューを挟まずにまとめて処理するモードも選べます。<br>
+  途中でやめるときは一時保存しておくと、次にアプリを開いたときに続きから再開できます。
+</div>
+
+<h2>ブロックの一覧</h2>
+<table class="blocks">
+  <tr><th>削除</th><td>いらないページを外します。プレビューでページを選びます。</td></tr>
+  <tr><th>分割</th><td>指定したページの後ろで1回区切り、2つのファイルに分けます。</td></tr>
+  <tr><th>結合</th><td>別のPDFを差し込みます。差し込む位置も選べます。</td></tr>
+  <tr><th>並べ替え</th><td>ページの順番を入れ替えます。サムネイルをドラッグして動かせます。</td></tr>
+  <tr><th>回転</th><td>ページの向きを変えます。ページごとに個別の角度も指定できます。</td></tr>
+  <tr><th>トリミング</th><td>ページの一部を切り抜きます。枠を四隅で伸縮、内側をドラッグして移動します。</td></tr>
+  <tr><th>ページ番号</th><td>ページ番号を入れます。位置と書式（3 ／ 3 / 10 ／ - 3 - ／ p.3 ／ 自由入力）を選べます。</td></tr>
+  <tr><th>透かし</th><td>文字を薄く重ねます。位置はドラッグで自由に決められ、大きさ・色・濃さ・向き（水平／斜め／逆斜め／垂直）も選べます。</td></tr>
+  <tr><th>画像化</th><td>ページを画像に描き直します。文字の選択やコピーができなくなります。</td></tr>
+  <tr><th>パスワードを設定して保存</th><td>パスワードをかけて書き出します。一番最後にしか置けません。</td></tr>
+  <tr><th>パスワードを解除して保存</th><td>パスワードを外して書き出します。一番最後にしか置けません。</td></tr>
+</table>
+
+<h2>よくあるご質問</h2>
+<dl class="faq">
+  <dt>元のPDFは書き換わりますか？</dt>
+  <dd>いいえ。処理した結果は新しいファイルとして保存されます。元のファイルはそのまま残ります。</dd>
+
+  <dt>パスワードのかかったPDFを開けますか？</dt>
+  <dd>開くときにパスワードを入力すれば開けます。「パスワードを解除して保存」のブロックは、そのPDFが開けている状態のときだけ選べます。他の方のPDFのパスワードを解析するような機能はありません。</dd>
+
+  <dt>「パスワードを設定して保存」「パスワードを解除して保存」が積めません。</dt>
+  <dd>この2つは一番最後にしか置けない保存ブロックです。どちらかを積むと、その下には何も繋げられなくなり、もう一方も積めなくなります。</dd>
+
+  <dt>透かしを斜めにしたら、PDF内のリンクが効かなくなりました。</dt>
+  <dd>斜め・逆斜め・垂直の透かしは、ページの中身に直接描き込みます。そのため元のリンクなどは絵として固定されます。リンクを残したい場合は「水平」をお選びください。</dd>
+
+  <dt>画像化したら文字が選べなくなりました。</dt>
+  <dd>画像化は、ページを絵に描き直す機能です。文字としての情報は残りません。文字を選べる状態で残したい場合は、このブロックは使わないでください。</dd>
+
+  <dt>作ったファイルはどこに保存されますか？</dt>
+  <dd>保存するときにお選びいただいた場所（この端末内のフォルダ、iCloud Drive など）に保存されます。アプリが勝手に保存先を決めることはありません。</dd>
+
+  <dt>開いたPDFの内容が、どこかに送信されることはありますか？</dt>
+  <dd>ありません。このアプリは通信機能を持っておらず、処理はすべて端末の中だけで行われます。詳しくは<a href="pdfblocks-privacy.html">プライバシーポリシー</a>をご覧ください。</dd>
+
+  <dt>Macでも使えますか？</dt>
+  <dd>はい。macOS 14 以降でご利用いただけます。</dd>
+</dl>
+
+<h2>関連ページ</h2>
+<ul>
+  <li><a href="pdfblocks-privacy.html">PDFつみき プライバシーポリシー</a></li>
+  <li><a href="kintai-support.html">勤怠管理タイムカード サポート</a></li>
+</ul>
+
+<hr style="margin:56px 0 0;border:none;border-top:1px solid var(--line)">
+
+<h1 id="english" style="margin-top:40px">Support</h1>
+<p class="lede">PDFBlocks (Japanese name: PDFつみき)</p>
+
+<h2>Contact</h2>
+<p>
+  For questions or bug reports, please email:<br>
+  <a href="mailto:shikuhakkunobuzaemon@gmail.com">shikuhakkunobuzaemon@gmail.com</a>
+</p>
+<p>This app is developed and maintained by one person, so replies may take some time. Thank you for your understanding.</p>
+
+<h2>Before you start</h2>
+<ul>
+  <li>Requires iOS 17 or later (iPhone, iPad) or macOS 14 or later.</li>
+  <li>A one-time purchase. No in-app purchases and no ads.</li>
+  <li>No internet connection is needed. All PDF processing happens on your device.</li>
+</ul>
+
+<h2>How to use</h2>
+<ol>
+  <li><strong>Put a PDF on the desk.</strong> The top half of the screen is the desk. Choose a file or drag and drop one. You can place more than one PDF.</li>
+  <li><strong>Stack blocks.</strong> Pick the operations you want from the block list.
+    <ul>
+      <li>On Mac and iPad, double-click to add a block at the bottom, or drag it to any position.</li>
+      <li>On iPhone, tap to add a block at the bottom. To reorder, press and hold a stacked block, then drag it.</li>
+    </ul>
+  </li>
+  <li><strong>Run.</strong> Each step opens a book-style preview. You choose which pages to remove, where to cut, where to put the watermark, and so on by touching the book directly.</li>
+  <li><strong>Save.</strong> On the last screen, name the file and choose where to save it.</li>
+</ol>
+
+<p>Once you are used to it, you can also run every step at once without the previews. If you need to stop partway, save a draft and pick up where you left off next time.</p>
+
+<h2>Blocks</h2>
+<table class="blocks">
+  <tr><th>Delete</th><td>Remove pages you don't need.</td></tr>
+  <tr><th>Split</th><td>Cut once after a chosen page, producing two files.</td></tr>
+  <tr><th>Merge</th><td>Insert another PDF at a position you choose.</td></tr>
+  <tr><th>Reorder</th><td>Change the page order by dragging thumbnails.</td></tr>
+  <tr><th>Rotate</th><td>Change page orientation, per page if you like.</td></tr>
+  <tr><th>Crop</th><td>Crop pages with a frame you resize and move.</td></tr>
+  <tr><th>Page number</th><td>Add page numbers. Choose the position and the format.</td></tr>
+  <tr><th>Watermark</th><td>Overlay text. Drag it anywhere; choose size, color, opacity and angle.</td></tr>
+  <tr><th>Rasterize</th><td>Redraw pages as images. Text is no longer selectable.</td></tr>
+  <tr><th>Save with password</th><td>Export with a password. Can only be placed last.</td></tr>
+  <tr><th>Remove password and save</th><td>Export without the password. Can only be placed last.</td></tr>
+</table>
+
+<h2>FAQ</h2>
+<dl class="faq">
+  <dt>Does it change my original PDF?</dt>
+  <dd>No. Results are written as new files. Your original stays as it is.</dd>
+
+  <dt>Can it open password-protected PDFs?</dt>
+  <dd>Yes, if you enter the password when opening it. The "Remove password and save" block is only available while such a PDF is open. The app cannot crack or recover passwords.</dd>
+
+  <dt>Why can't I stack the password blocks?</dt>
+  <dd>Both are terminal blocks that can only be placed at the very end. Once one is placed, nothing can follow it.</dd>
+
+  <dt>Links in my PDF stopped working after I used a diagonal watermark.</dt>
+  <dd>Diagonal and vertical watermarks are drawn into the page content, which flattens links into the artwork. Choose "Horizontal" if you need to keep them.</dd>
+
+  <dt>Where are the finished files saved?</dt>
+  <dd>Wherever you choose when saving — a folder on your device, iCloud Drive, and so on.</dd>
+
+  <dt>Is anything sent anywhere?</dt>
+  <dd>No. The app has no networking at all. See the <a href="pdfblocks-privacy.html">privacy policy</a> for details.</dd>
+</dl>
+
+<footer>
+  PDFつみき / PDFBlocks — nobuzaemon
+</footer>
+
+</main>
+</body>
+</html>
